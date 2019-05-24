@@ -15,6 +15,7 @@ public class Quick2Controller {
     @ResponseBody
     public String quick(){
         //获得配置文件的信息
+        System.out.println("-------");
         return "name:"+name;
     }
 }
